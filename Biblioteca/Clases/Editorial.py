@@ -1,6 +1,7 @@
 class Editorial:
     def __init__(self,ID_editorial,E_nombre,Telefono):
+        #Atributos clase Editorial y encapsulamiento
         self.__ID_editorial = ID_editorial
-        self.__E_nombre = E_nombre
-        self.__Telefono = Telefono
+        self._E_nombre = E_nombre
+        self._Telefono = Telefono
         
